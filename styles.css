@@ -1,0 +1,106 @@
+body {
+	margin: 0px;
+}
+.conatiner {
+	background-image: url(images/bg-2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 600px;
+}
+.div-1 {
+	margin: 0px;
+	background-color: rgb(32, 73, 32);
+}
+
+.div-1 li {
+	list-style-type: none;
+	display: inline-flex;
+	padding: 12px;
+}
+
+li a {
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+.icon {
+	margin-right: 8px;
+	color: whitesmoke;
+}
+#end {
+	margin-right: 30px;
+	float: inline-end;
+}
+.div-1 :hover {
+	background-color: rgb(138, 221, 138);
+}
+
+.div-left li {
+	float: left;
+	text-decoration: none;
+	list-style-type: none;
+	margin: 20px 20px 0px 0px;
+}
+#start {
+	margin: 30px 10px 0px 30px;
+}
+.icon2 {
+	color: rgb(168, 250, 3);
+	margin-right: 5px;
+}
+.div-right {
+	float: right;
+}
+.div-left li a:hover {
+	color: rgb(167, 249, 2);
+	padding-bottom: 10px;
+	border-bottom-style: solid;
+}
+.part-1 {
+	margin: 190px 0px 0px 70px;
+	width: 30%;
+	color: white;
+}
+.anchor1 {
+	color: whitesmoke;
+	text-decoration: none;
+	background-color: rgb(5, 245, 117);
+	padding: 12px;
+}
+.anchor2 {
+	color: rgb(252, 251, 251);
+	text-decoration: none;
+	padding: 11px;
+	border: 1px solid rgb(244, 239, 239);
+}
+.cards {
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+.card1 {
+	width: 230px;
+	color: black;
+	margin: 40px 0px 0px 95px;
+	background-color: rgb(250, 236, 234);
+	text-align: center;
+	border: 2px solid rgb(252, 227, 227);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
+img {
+	height: 160px;
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+}
+.font-icon {
+	padding: 0px 0px 20px 0px;
+	color: black;
+}
+footer {
+	font-size: 12px;
+
+	color: white;
+	background-color: rgb(68, 67, 67);
+	padding: 10px;
+}
