@@ -1,11 +1,12 @@
 body {
 	margin: 0px;
+	width: 100%;
 }
 .conatiner {
 	background-image: url(images/bg-2.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	width: 100%;
+	position: relative;
 	height: 600px;
 }
 .div-1 {
@@ -58,7 +59,7 @@ li a {
 	border-bottom-style: solid;
 }
 .part-1 {
-	margin: 190px 0px 0px 70px;
+	margin: 180px 0px 0px 70px;
 	width: 30%;
 	color: white;
 }
@@ -74,21 +75,22 @@ li a {
 	padding: 11px;
 	border: 1px solid rgb(244, 239, 239);
 }
-.cards {
+.parent {
+	margin: 40px 250px 0px 250px;
+	width: 60%;
 	display: grid;
 	grid-template-columns: auto auto auto;
+	column-gap: 30px;
 }
-.card1 {
-	width: 230px;
-	color: black;
-	margin: 40px 0px 0px 95px;
-	background-color: rgb(250, 236, 234);
+.child {
 	text-align: center;
+	color: black;
+	background-color: rgb(250, 236, 234);
 	border: 2px solid rgb(252, 227, 227);
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
 }
 img {
-	height: 160px;
+	height: 140px;
 	display: block;
 	margin: 0 auto;
 	width: 100%;
@@ -98,9 +100,12 @@ img {
 	color: black;
 }
 footer {
-	font-size: 12px;
-
-	color: white;
 	background-color: rgb(68, 67, 67);
-	padding: 10px;
+	width: 100%;
+	padding: 6px 0px 6px 0px;
+}
+footer a {
+	font-size: 12px;
+	color: whitesmoke;
+	text-decoration: none;
 }
